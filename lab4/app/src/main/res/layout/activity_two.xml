@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal"
+    android:background="#ECEFF1">
+
+    <TextView
+        android:text="Питання 1/3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#607D8B"
+        android:layout_marginBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Який компонент відповідає за один екран у Android?"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#263238"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Service"
+        android:onClick="wrongAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"/>
+
+    <Button
+        android:text="Activity"
+        android:onClick="correctAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:text="Intent"
+        android:onClick="wrongAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:text="Обери відповідь..."
+        android:textSize="18sp"
+        android:textColor="#455A64"
+        android:layout_marginTop="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:text="Далі >>"
+        android:layout_marginTop="28dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
